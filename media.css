@@ -1,0 +1,156 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Barlow Semi Condensed",sans-serif;
+    font-size:15px;
+    font-weight: 600;
+}
+.container{
+    width:100vw;
+    background-color: lavender;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: minmax(200px,auto);
+    grid-gap:30px;
+}
+.p1{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    border:2px solid rebeccapurple;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+    color:white;
+    position: relative;
+
+    
+}
+.p1 .part1{
+    padding:3em;
+}
+.part1 .g1{
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top:25px;
+    left:15px;
+    
+    
+}
+.part1 .g2{
+    position: absolute;
+    top:50px;
+    right:100px;
+    z-index: 1;
+}
+.part1 .head{
+    position:relative;
+    z-index:2;
+}
+.part1 #h1 , #h2{
+    position: absolute;
+    left:100px;
+}
+
+.p2{
+    border:2px solid midnightblue;
+    border-radius: 30px;
+    background-color: midnightblue;
+    color: white;
+    grid-row:1/3;
+    position: relative;
+    
+}
+.p2 .part2{
+    padding:3em;
+}
+.part2 .g3{
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    
+}
+.part2 #h3 , #h4{
+    position: absolute;
+    left:100px;
+
+}
+.p3{
+    border:2px solid whitesmoke;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color:black;
+    grid-row:3/5;
+    position: relative;
+    
+}
+.p3 .part3{
+    padding:3em;
+}
+.part3 .g4{
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top:25px;
+    left: 10px;
+}
+.part3 #h5 , #h6{
+    position: absolute;
+    left: 100px;
+}
+
+.p4{
+  border:2px solid  midnightblue;
+  border-radius: 30px;
+  background-color: midnightblue;
+  color:white;
+  grid-column:2/5;
+  grid-row: 3/5;
+  position: relative;
+  
+  
+}
+.p4 .part4{
+    padding:3em;
+}
+.part4 .g5{
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top:25px;
+    left: 10px;
+}
+.part4 #h7 , #h8{
+    position: absolute;
+    left: 100px;
+}
+.p5{
+     
+  border:2px solid white;
+  border-radius: 30px;
+  background-color: white;
+  color:midnightblue;
+  grid-column:5;
+  grid-row:1/6;
+  position: relative;
+  
+}
+.p5 .part5{
+    padding:3em;
+}
+.part5 .g6{
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top:25px;
+    left: 10px;
+}
+.part5 #h9 , #h10{
+    position: absolute;
+    left: 100px;
+}
